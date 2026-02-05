@@ -33,7 +33,7 @@ REAL_HONEYPOTS = [
     "Cowrie", "cowrie", "Dionaea", "dionaea", "Honeytrap", "honeytrap",
     "ElasticPot", "elasticpot", "RDPY", "rdpy", "Mailoney", "mailoney",
     "Ciscoasa", "ciscoasa", "Medpot", "medpot", "Conpot", "conpot",
-    "Tanner", "tanner", "Nginx", "NGINX", "nginx"
+    "Tanner", "tanner", "Nginx", "NGINX", "nginx", "Honeytrap", "honeytrap", "H0neyTr4p", "h0neytr4p", "Sentrypeer", "sentrypeer"
 ]
 
 # ------------------------------------------------------
