@@ -3,7 +3,4 @@ requests
 pandas 
 urllib3
 requests.auth
-plotly.express 
-plotly.graph_objects 
-datetime 
-json
+
