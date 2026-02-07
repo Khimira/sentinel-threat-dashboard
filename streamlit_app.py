@@ -33,7 +33,9 @@ REAL_HONEYPOTS = [
     "Cowrie", "cowrie", "Dionaea", "dionaea", "Honeytrap", "honeytrap",
     "ElasticPot", "elasticpot", "RDPY", "rdpy", "Mailoney", "mailoney",
     "Ciscoasa", "ciscoasa", "Medpot", "medpot", "Conpot", "conpot",
-    "Tanner", "tanner", "Nginx", "NGINX", "nginx", "Honeytrap", "honeytrap", "H0neyTr4p", "h0neytr4p", "Sentrypeer", "sentrypeer"
+    "Tanner", "tanner", "Nginx", "NGINX", "nginx", "Honeytrap", "honeytrap",
+    "H0neyTr4p", "h0neytr4p", "Sentrypeer", "sentrypeer", "Miniprint", "miniprint",
+    "Honeyaml", "honeyaml", "Mailoney", "mailoney"
 ]
 
 # ------------------------------------------------------
@@ -381,10 +383,8 @@ if total_attacks == 0:
 # 6. HEADER COM LOGO E TÍTULO
 # ------------------------------------------------------
 header_col1, header_col2 = st.columns([1, 4])
-with header_col1:
-    st.markdown("# 🛡️")
 with header_col2:
-    st.title("Sentinel Dashboard - Honeypot Monitor")
+    st.title("🛡️Sentinel Dashboard - Honeypot Monitor")
     st.caption(f"📅 Período: **{time_input}** | 🔄 Última Atualização: {datetime.now().strftime('%d/%m/%Y %H:%M:%S')}")
 
 st.divider()
