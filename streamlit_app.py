@@ -400,7 +400,7 @@ with col1:
     st.metric(
         label="🎯 Total de Ataques",
         value=f"{total_attacks:,}",
-        delta="Apenas Honeypots Reais"
+        delta="Apenas Ataques Reais"
     )
 
 with col2:
